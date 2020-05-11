@@ -16,7 +16,8 @@ let popUpWindoStyles = {
 };
 */
 const Wrapper = styled.section`
-    background-color: #000;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     color: #dcdcdc;
     height: 75%;
     width: 75%;
@@ -49,6 +50,15 @@ let closeButton = {
     cursor: 'pointer'
 };
 
+let passPortPicture = {
+    boxShadow: '0 8px 6px -6px black',
+    width: '100px',
+    top:'20px',
+    right:'5px',
+    position:'absolute',
+    zIndex: '-1'
+};
+
 let upperBorder = {
     height: '15px',
     backgroundColor: '#c4c7c4'
@@ -63,6 +73,7 @@ export default class About extends Component {
                     <img style={closeButton} src={require('../assets/closeButton.png')} alt="close-popup" onClick={this.props.onClose}/>
                 </div>
                 <div>
+                    <img style={passPortPicture} src={require('../assets/passipilt.jpg')}/>
                     {this.props.children}
                 </div>
             </Wrapper>

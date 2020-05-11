@@ -49,10 +49,10 @@ export default class Home extends Component {
             <Container>
             <GlobalStyle/>
                 <Typist avgTypingDelay={35} cursor={'blink: true;'}>
-                Hi! My name is Karl and this is a web page <a onClick={(e) => this.setState({ aboutIsOpen: true })}>about me</a>. 
+                Hi! My name is Karl and this is a brief web page <a onClick={(e) => this.setState({ aboutIsOpen: true })}>about me</a>. 
                 I am an ambitious and enthused software developer offering knowledge in full stack development.
                 My previous work experience includes mobile and web development. 
-                Currently I am searching for a new position where I can have an opportunity to enhance my capabilities and work with talented people on exciting technologies.
+                I am seeking a position where I would have the opportunity to enhance my capabilities and work with talented people on exciting tech.
                 
                 </Typist>
                 <About aboutIsOpen={this.state.aboutIsOpen} 
@@ -86,7 +86,6 @@ export default class Home extends Component {
                     onClose={(e) => this.setState({ playerIsOpen: false })}>
                     <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/559381953&color=%23dc7aa4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                 </Player>
-                <Image src={require('../assets/karlutt3.png')} alt="karl-image"/>
             </Container>
         );
     }

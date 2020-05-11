@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     p {
-        color: #80caee;
+        color: #000;
         display: inline;
     }
 
