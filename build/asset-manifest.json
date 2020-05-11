@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/static/js/main.86530248.chunk.js",
+    "main.js.map": "/static/js/main.86530248.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.dbd8b1e0.chunk.css": "/static/css/2.dbd8b1e0.chunk.css",
+    "static/js/2.d56b8b78.chunk.js": "/static/js/2.d56b8b78.chunk.js",
+    "static/js/2.d56b8b78.chunk.js.map": "/static/js/2.d56b8b78.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f31da8365117e2857b665a91082bed69.js": "/precache-manifest.f31da8365117e2857b665a91082bed69.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.dbd8b1e0.chunk.css.map": "/static/css/2.dbd8b1e0.chunk.css.map",
+    "static/media/passipilt.jpg": "/static/media/passipilt.716b3826.jpg",
+    "static/media/space.jpg": "/static/media/space.93395709.jpg"
+  }
+}
